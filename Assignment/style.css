@@ -1,0 +1,50 @@
+body,
+html {
+  background-color: aquamarine;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header,
+footer {
+  background-color: black;
+  color: gold;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header > h1,
+footer > p {
+  margin: 0;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+img {
+  width: 20%;
+  margin-left: 2.5rem;
+  border: solid white 5px;
+}
+
+footer > p {
+  font-style: italic;
+  color: white;
+}
+
+ul {
+  font-family: montserrat;
+}
+
+footer {
+  flex-shrink: 0;
+}
